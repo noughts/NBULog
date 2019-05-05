@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     s.dependency 'CocoaLumberjack', '>= 3.x'
 
     s.subspec 'Base' do |sub|
-        sub.source_files  = 'Source/*.{h,m,swift}'
+        sub.source_files  = 'Source/*.{h,m}'
     end
 
     s.subspec 'Console' do |sub|
