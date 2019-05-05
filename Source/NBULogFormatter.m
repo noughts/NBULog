@@ -38,11 +38,11 @@ static NSString * _processName;
     NSString * logLevel;
     switch (logMessage->_flag)
     {
-        case DDLogFlagError   : logLevel = @"E"; break;
-        case DDLogFlagWarning : logLevel = @"W"; break;
-        case DDLogFlagInfo    : logLevel = @"I"; break;
-        case DDLogFlagDebug   : logLevel = @"D"; break;
-        default               : logLevel = @"V"; break;
+        case DDLogFlagError   : logLevel = @"‼️‼️‼️"; break;
+        case DDLogFlagWarning : logLevel = @"⚠️⚠️⚠️"; break;
+        case DDLogFlagInfo    : logLevel = @"ℹ️ℹ️ℹ️"; break;
+        case DDLogFlagDebug   : logLevel = @"🔹🔹🔹"; break;
+        default               : logLevel = @"🗯🗯🗯"; break;
     }
     
     return [NSString stringWithFormat:@"%@ %@[%@] %@ %@:%@ %@",
